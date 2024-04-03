@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(rgb(244, 204, 138), rgb(149, 120, 88));
+}
+
+#titulo {
+    text-shadow: 2px 0px 5px rgb(197, 196, 195) ;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 20px 30px;
+}
+
+.navegador {
+    padding:2px 10px;
+}
