@@ -27,17 +27,21 @@ header div nav {
 }
 
 header .inicio li {
+    display: inline-block;
     list-style: none;
     margin: auto 10px;
 }
 
 header div nav li a{
     color: rgb(0, 26, 255);
+    text-decoration: none;
+    position: relative;
 }
 
 header div nav li a:hover{
     cursor: pointer;
     color: rgb(255, 255, 255);
+    transition: all 200ms ease-in-out;
 }
 
 header div h1 {
