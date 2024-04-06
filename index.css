@@ -27,7 +27,7 @@ header div nav {
 }
 
 header .inicio li {
-    display: inline-block;
+    display: flex;
     list-style: none;
     margin: auto 10px;
 }
@@ -35,13 +35,14 @@ header .inicio li {
 header div nav li a{
     color: rgb(0, 26, 255);
     text-decoration: none;
-    position: relative;
+    text-shadow: 0px 0px 5px rgb(15, 57, 77);
 }
 
 header div nav li a:hover{
     cursor: pointer;
     color: rgb(255, 255, 255);
     transition: all 200ms ease-in-out;
+    transform: scale(1.2);
 }
 
 header div h1 {
